@@ -1,0 +1,36 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    text-align: center;
+    background-color: rgb(93, 202, 202);
+    color: white;
+
+}
+
+.menu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(194, 87, 194);
+    height:fit-content;
+    width: fit-content;
+}
+
+a:hover{color: red}
+
+.content{
+    background-color:rgb(76, 115, 188);
+    color: white;
+}
+
+article{
+    margin-left: 2%;
+}
+
+footer{
+    background-color: rgb(194, 87, 194);
+}
+
+img{
+    border-radius: 100;
+}
