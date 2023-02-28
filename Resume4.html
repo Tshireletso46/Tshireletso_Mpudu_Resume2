@@ -1,31 +1,35 @@
 <DOCTYPE! html>
     <html>
-        <!--This is the name of my webite's tab-->
-        <head>
-            <title>My digital resume</title>
-        </head>
+    <!--This is the name of my title/webite's tab-->
 
-        <!--Body-->
+    <head>
+        <title>My digital resume</title>
+        <link rel="stylesheet" href="CSS/stylesheet.css" />
+    </head>
+
+    <!--Body-->
     <body>
-        <header>
-            <h1>Tshireletso Mpudu</h1>
-            <p>An inductory personal statement</p>
+        <header class="heading">
+            <image class="myImage"></image>
+            <img src="image\MY PROFILE PHOTO.JPG" alt="my profile photo" height="300px" weidth="300px">
+            <h1>Tshireletso Mpudu.</h1>
+            <p>An inductory personal statement.</p>
         </header>
 
         <!--Section-->
-        <section>
-            <aside>
-                <!--This is to align my picture and the unorderd list to the side-->
-                <img src="image\MY PROFILE PHOTO.JPG" alt="my profile photo" height="300px" weidth="300px">
-                
-                <ul>
-                    <li><a href="education">Education</a></li>
-                    <li><a href="experiance">Experiance</a></li>
-                    <li><a href="skills">Skills</a></li>
-                </ul>
+        <section class="content">
+            <aside class="Menu">
+                <!--This is to aside Menu heading and the nav content to the side-->
+                <div id="nav">
+                    <h2>Menu</h2>
+                    <ul>
+                        <li><a href="education">Education</a></li>
+                        <li><a href="experiance">Experiance</a></li>
+                        <li><a href="skills">Skills</a></li>
+                    </ul>
+                </div>
             </aside>
 
-        
             <article>
                 <!--This is my main content-->
                 <h2 id="education">Education</h2>
@@ -70,7 +74,7 @@
                     <li>A sentence about the responsibilities of the job</li>
                     <li>A sentence about the responsibilities of the job</li>
                     <li>A sentence about the responsibilities of the job</li>
-                    </ul>
+                </ul>
 
                 <h2>Skills</h2>
                 <ul>
@@ -82,11 +86,14 @@
             </article>
         </section>
 
-        <!--Footer-->
         <footer>
+            <!--This is the end of my website-->
             <h1>Contact details</h1>
 
+            <p>Email adress: tshirempudu@gmail.com</p>
+            <p>065 895 1817</p>
             <p><a href="linkedin">LinkedIn</a></p>
+            <p></p>
         </footer>
 
     </body>
