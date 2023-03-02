@@ -11,8 +11,9 @@ html {
     color: white;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-left:5% ;
+    margin-left: 5% ;
     margin-right: 5%;
+    border-style: dotted;
 }
 
 /*A selector which focuses on menu*/
@@ -36,6 +37,7 @@ a:hover {
     margin-right: 5%;
     margin-left: 5%;
     padding-top: 5%;
+    border-style: double;
     
 }
 
@@ -59,3 +61,11 @@ img {
     border-style: double;
 }
 
+h2{
+    color: rgb(38, 5, 12);
+}
+
+body{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
