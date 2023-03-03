@@ -8,13 +8,12 @@ html {
     /* text-align: center; */
     background-color: rgb(93, 202, 202);
     color: white;
-    padding-bottom: 40%;
+    text-align: center;
+    padding-bottom: 129.3%;
     padding-top: 10px;
-    margin-left: 5%;
+    margin-left: 1px;
     border-style: dotted;
-    margin-bottom: 40%;
-
-    
+    font-size:x-large;
 }
 
 /*A selector which focuses on menu*/
@@ -23,9 +22,8 @@ html {
     background-color: rgb(194, 87, 194);
     height: fit-content;
     width: fit-content;
-    margin-top: -7%;
-    position:relative;
-    
+    margin-top: -1.8%;
+    /* position: static; */
 }
 
 /*This is applies to every link in my html code*/
@@ -37,34 +35,26 @@ a:hover {
 .content {
     background-color: rgb(76, 115, 188);
     color: white;
-    padding-top: 5%;
-    border-style: double;
-
-   
-   }
-
-/*This selector focuses on the main content*/
-article {
-    margin-left: 5%; 
-    margin-right: 5%;
-  
+    /* padding-top: 50%; */
+    border-style:dotted;
+    margin-bottom: 10px;    
 }
-
 /*This selector focuses on footer*/
 footer {
     background-color: rgb(194, 87, 194);
     border-style: dotted;
-    margin-left: 5%;
-    margin-right: 10%;
-    display: right;
-    margin-bottom: 70%;
+    /* display: right; */
+    font-size: large;
+    position: fixed;
+    top:470px;
+    padding-right: 9%;
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 100%;
     border-style: double;
-   height: 10%;
-   width:23%
+    height: 25%;
+    width: 50%
 }
 
 h2 {
@@ -75,6 +65,7 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.split1{
+
+.split1 {
     display: flex;
 }
