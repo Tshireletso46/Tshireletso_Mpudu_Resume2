@@ -5,14 +5,16 @@ html {
 
 /*A selector which focuses on heading content*/
 .heading {
-    text-align: center;
+    /* text-align: center; */
     background-color: rgb(93, 202, 202);
     color: white;
-    padding-bottom: 10px;
+    padding-bottom: 40%;
     padding-top: 10px;
-    margin-left: 5% ;
-    margin-right: 5%;
+    margin-left: 5%;
     border-style: dotted;
+    margin-bottom: 40%;
+
+    
 }
 
 /*A selector which focuses on menu*/
@@ -22,6 +24,8 @@ html {
     height: fit-content;
     width: fit-content;
     margin-top: -7%;
+    position:relative;
+    
 }
 
 /*This is applies to every link in my html code*/
@@ -33,18 +37,17 @@ a:hover {
 .content {
     background-color: rgb(76, 115, 188);
     color: white;
-    margin-right: 5%;
-    margin-left: 5%;
     padding-top: 5%;
     border-style: double;
-    
-}
+
+   
+   }
 
 /*This selector focuses on the main content*/
 article {
-    margin-left: 5%;
+    margin-left: 5%; 
     margin-right: 5%;
-    padding-bottom: 2%;
+  
 }
 
 /*This selector focuses on footer*/
@@ -52,19 +55,26 @@ footer {
     background-color: rgb(194, 87, 194);
     border-style: dotted;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 10%;
+    display: right;
+    margin-bottom: 70%;
 }
 
 img {
     border-radius: 50%;
     border-style: double;
+   height: 10%;
+   width:23%
 }
 
-h2{
+h2 {
     color: rgb(38, 5, 12);
 }
 
-body{
+body {
     margin-top: 5%;
     margin-bottom: 5%;
+}
+.split1{
+    display: flex;
 }
