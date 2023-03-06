@@ -1,0 +1,73 @@
+/*A font declaration to my html code*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*A selector which focuses on heading content*/
+.heading {
+    /* text-align: center; */
+    background-color: rgb(93, 202, 202);
+    color: rgb(255, 255, 255)
+    text-align: center;
+    padding-bottom: 129.3%;
+    padding-top: 10px;
+    margin-left: 1px;
+    border-style: dotted;
+    font-size: x-large;
+}
+
+/*A selector which focuses on menu*/
+.menu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(194, 87, 194);
+    height: fit-content;
+    width: fit-content;
+    margin-top: -1.8%;
+    /* position: static; */
+}
+
+/*This is applies to every link in my html code*/
+a:hover {
+    color: rgb(255, 0, 0)
+}
+
+/*This selector focuses on the content*/
+.content {
+    background-color: rgb(76, 115, 188);
+    color: white;
+    /* padding-top: 50%; */
+    border-style: dotted;
+    margin-bottom: 10px;
+}
+
+/*This selector focuses on footer*/
+footer {
+    background-color: rgb(194, 87, 194);
+    border-style: dotted;
+    display: right;
+    font-size: large;
+    /* position: fixed; */
+    top: 470px;
+    padding-right: 9%;
+    
+}
+
+img {
+    border-radius: 100%;
+    border-style: double;
+    height: 25%;
+    width: 50%
+}
+
+h2 {
+    color: rgb(38, 5, 12);
+}
+
+body {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.split1 {
+    display: flex;
+}
