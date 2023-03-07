@@ -7,7 +7,7 @@ html {
 .heading {
     /* text-align: center; */
     background-color: rgb(93, 202, 202);
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-bottom: 129.3%;
     padding-top: 10px;
@@ -35,9 +35,7 @@ a:hover {
 .content {
     background-color: rgb(76, 115, 188);
     color: white;
-    /* padding-top: 50%; */
-    border-style: dotted;
-    margin-bottom: 10px;
+        border-style: dotted;
 }
 
 /*This selector focuses on footer*/
@@ -46,23 +44,20 @@ footer {
     border-style: dotted;
     display: right;
     font-size: large;
-    /* position: fixed; */
-    top: 470px;
-    padding-right: 9%;
-    
 }
-
+/* This targets my profile photo */
 img {
     border-radius: 100%;
     border-style: double;
     height: 25%;
     width: 50%
 }
-
+/* This colors all the heading in size h2 */
 h2 {
     color: rgb(38, 5, 12);
 }
 
+/* This targerts the body of the resume */
 body {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -70,4 +65,8 @@ body {
 
 .split1 {
     display: flex;
+}
+
+#bottomCover{
+    margin-bottom: -1px;
 }
