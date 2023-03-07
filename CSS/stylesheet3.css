@@ -46,11 +46,8 @@ footer {
     border-style: dotted;
     /* display: right; */
     font-size: large;
-    position: fixed;
-    top: 470px;
-    padding-right: 9%;
 }
-
+    
 img {
     border-radius: 100%;
     border-style: double;
@@ -69,4 +66,8 @@ body {
 
 .split1 {
     display: flex;
+}
+
+#bottomCover{
+    margin-bottom: -1px;
 }
