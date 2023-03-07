@@ -35,7 +35,8 @@ a:hover {
 .content {
     background-color: rgb(76, 115, 188);
     color: white;
-        border-style: dotted;
+    border-style: dotted;
+
 }
 
 /*This selector focuses on footer*/
@@ -45,6 +46,7 @@ footer {
     display: right;
     font-size: large;
 }
+
 /* This targets my profile photo */
 img {
     border-radius: 100%;
@@ -52,6 +54,7 @@ img {
     height: 25%;
     width: 50%
 }
+
 /* This colors all the heading in size h2 */
 h2 {
     color: rgb(38, 5, 12);
@@ -63,10 +66,18 @@ body {
     margin-bottom: 5%;
 }
 
+/* This splits my resume content into two sections */
 .split1 {
     display: flex;
 }
 
-#bottomCover{
+#bottomCover {
     margin-bottom: -1px;
+}
+
+/* This back to top button */
+#button{
+    background-color: rgb(255, 255, 255);
+    float:right;
+    margin-top: 38%;
 }
