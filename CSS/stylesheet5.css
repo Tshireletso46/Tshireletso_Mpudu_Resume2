@@ -3,29 +3,30 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /*A selector which focuses on heading content*/
 .heading {
     /* text-align: center; */
-    background-color: rgb(93, 202, 202);
+    background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     text-align: center;
-    height: 1350px;
-    margin-left: 1px;
-    border-style: dotted;
     font-size: x-large;
+    background-image: url(../image/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fit-content;
+    height: 1350px;
 }
 
 /*A selector which focuses on menu*/
 .menu {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(194, 87, 194);
+    background-color: rgb(125, 83, 52);
+    padding-top: 2px;
     height: fit-content;
     width: fit-content;
-    margin:auto;
-    
-    
+
     /* position: static; */
-    /* padding-bottom: 2%; */
 }
 
 /*This is applies to every link in my html code*/
@@ -35,7 +36,7 @@ a:hover {
 
 /*This selector focuses on the content*/
 .content {
-    background-color: rgb(76, 115, 188);
+    background-color: rgb(150, 149, 150);
     border-style: dotted;
     color: rgb(255, 255, 255);
 
@@ -43,7 +44,7 @@ a:hover {
 
 /*This selector focuses on footer*/
 footer {
-    background-color: rgb(194, 87, 194);
+    background-color: rgb(125, 83, 52);
     border-style: dotted;
     display: right;
     font-size: large;
@@ -51,9 +52,10 @@ footer {
 
 /* This targets my profile photo */
 img {
-    border-radius: 100%;
-    border-style: double;
+    border-radius: 50%;
+    border: 2px solid white;
     height: auto;
+    padding-top: 1px;
     width: 50%;
 }
 
@@ -71,6 +73,7 @@ body {
 /* This splits my resume content into two sections */
 .split1 {
     display: flex;
+    border-style:dotted;
 }
 
 #bottomCover {

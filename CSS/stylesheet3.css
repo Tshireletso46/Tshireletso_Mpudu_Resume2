@@ -9,8 +9,7 @@ html {
     background-color: rgb(93, 202, 202);
     color: white;
     text-align: center;
-    padding-bottom: 129.3%;
-    padding-top: 10px;
+    height: 1300px;
     margin-left: 1px;
     border-style: dotted;
     font-size: x-large;
@@ -37,7 +36,7 @@ a:hover {
     color: white;
     /* padding-top: 50%; */
     border-style: dotted;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /*This selector focuses on footer*/
@@ -51,7 +50,7 @@ footer {
 img {
     border-radius: 100%;
     border-style: double;
-    height: 25%;
+    height:auto;
     width: 50%
 }
 
