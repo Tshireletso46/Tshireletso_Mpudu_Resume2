@@ -21,11 +21,7 @@ html {
     background-color: rgb(194, 87, 194);
     height: fit-content;
     width: fit-content;
-    margin:auto;
-    
-    
-    /* position: static; */
-    /* padding-bottom: 2%; */
+    padding-top: 2px;
 }
 
 /*This is applies to every link in my html code*/
