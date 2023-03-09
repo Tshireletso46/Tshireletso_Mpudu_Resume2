@@ -1,0 +1,87 @@
+/*A font declaration to my html code*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*A selector which focuses on heading content*/
+.heading {
+    /* text-align: center; */
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: x-large;
+    background-image: url(../image/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fit-content;
+    height: 2000px;
+}
+
+/*A selector which focuses on menu*/
+.menu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(125, 83, 52);
+    padding-top: 2px;
+    height: fit-content;
+    width: fit-content;
+    /* position: static; */
+}
+
+/*This is applies to every link in my html code*/
+a:hover {
+    color: rgb(255, 0, 0)
+}
+
+/*This selector focuses on the content*/
+.content {
+    background-color: rgb(150, 149, 150);
+    border-style: dotted;
+    color: rgb(255, 255, 255);
+
+}
+
+/*This selector focuses on footer*/
+footer {
+    background-color: rgb(125, 83, 52);
+    border-style: dotted;
+    display: right;
+    font-size: large;
+}
+
+/* This targets my profile photo */
+img {
+    border-radius: 50%;
+    border: 2px solid white;
+    height: auto;
+    padding-top: 1px;
+    width: 50%;
+}
+
+/* This colors all the heading in size h2 */
+h2 {
+    color: rgb(38, 5, 12);
+}
+
+/* This targerts the body of the resume */
+body {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* This splits my resume content into two sections */
+.split1 {
+    display: flex;
+    border-style:dotted;
+}
+
+#bottomCover {
+    margin-bottom: -1px;
+}
+
+/* This back to top button */
+#button {
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-top: 38%;
+}
