@@ -15,7 +15,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fit-content;
-    height: 2000px;
+    height: 100%
 }
 
 /*A selector which focuses on menu*/
@@ -47,6 +47,10 @@ footer {
     border-style: dotted;
     display: right;
     font-size: large;
+    background-image: url(../image/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
 }
 
 /* This targets my profile photo */
@@ -84,4 +88,59 @@ body {
     background-color: rgb(255, 255, 255);
     float: right;
     margin-top: 38%;
+}
+/* -------------------------------------------------------Media quiries--------------------------------------------------------------------------------------- */
+/* Small devices*/
+@media screen and (max-width: 425px){
+    .heading {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: small;
+    }
+    .menu li{
+        display: inline;
+        list-style: none;
+        
+    }
+    .menu{
+        text-align: center;
+        font-size: small;
+        
+    }
+
+    .content{
+        font-size: small;
+    }
+
+    h2{
+        font-size: medium;
+    }
+
+    footer{
+        
+        font-size: small;
+    }
+
+    #button {
+        background-color: rgb(162, 149, 149);
+        
+    } 
+}
+
+/* Tablet */
+@media screen and (min-width: 427px){
+    .heading {
+        color: rgb(159, 143, 165);
+        text-align: center;
+        font-size: medium;
+    }
+
+     .menu{
+       text-align: center; 
+        
+     }
+        
+
+
+
 }
