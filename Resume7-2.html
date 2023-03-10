@@ -16,8 +16,9 @@
                 <header class="heading">
                     <!--Optimising my profile photo-->
                     <picture>
-                        <source srcset="./image/default.jpg" media="(max-width: 1050px)">
-                        <img src="./image/my profile photo.JPG" alt="profile">
+                        <source srcset="./image/default.jpg" media="(max-width: 900px)">
+                        <source srcset="./image/small.jpg" media="(max-width: 1350px)">
+                        <img src="./image/profile.JPG" alt="profile" width="50%" height="50%"> 
                     </picture>
                     
                     <h1>Tshireletso Mpudu.</h1>
@@ -36,6 +37,7 @@
                             <li><a href="#education">Education</a></li>
                             <li><a href="#experiance">Experiance</a></li>
                             <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact details">Contact details</a></li>
                         </ul>
                     </div>
                 </aside>
@@ -98,7 +100,7 @@
                         semper.
                     </p>
 
-                    <h2>Experiance</h2>
+                    <h2 id="experiance">Experiance</h2>
 
                     <h3>Job 1</h3>
                     <ul>
@@ -116,7 +118,7 @@
                         <li>A sentence about the responsibilities of the job</li>
                     </ul>
 
-                    <h2>Skills</h2>
+                    <h2 id="skills">Skills</h2>
                     <ul>
                         <li>Skill 1</li>
                         <li>Skill 2</li>
@@ -134,8 +136,9 @@
                 <h3><a href="#heading" id="back-a">Back to top</a></h3>
             </button>
 
-            <!---------------------------------------------------------Form section--------------------------------------------------------------->
+            <!-------------------------------------------------The begging of form--------------------------------------------------------------->
             <form action="https://formsubmit.co/tshirempudu@gmail.com" method="POST">
+                <fieldset>
 
                 <!--This gives the sender multiple choices to select from-->
                 <select name="subject" id="subject">
@@ -197,10 +200,11 @@
                             <input type="submit">
                         </div>
                     </div>
+                </fieldset>
             </form>
-            <!-----------------------------------------------------End of form------------------------------------------------------------------------------------>
+            <!----------------------------------------------------End of form--------------------------------------------------------------------->
 
-            <h2>Contact details:</h2>
+            <h2 id="contact details">Contact details</h2>
             <!--This includes my contact details-->
 
             <p>Email adress: tshirempudu@gmail.com</p>
