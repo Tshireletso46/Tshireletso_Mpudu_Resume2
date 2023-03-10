@@ -24,9 +24,9 @@ html {
     background-color: rgb(125, 83, 52);
     padding-top: 2px;
     height: fit-content;
-    width: fit-content;
-    /* position: static; */
+    width: fit-content; 
 }
+
 
 /*This is applies to every link in my html code*/
 a:hover {
@@ -46,11 +46,13 @@ footer {
     background-color: rgb(125, 83, 52);
     border-style: dotted;
     display: right;
-    font-size: large;
+    font-size: larger;
     background-image: url(../image/Background.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
+    background-size: cover;
+    overflow: hidden;
 }
 
 /* This targets my profile photo */
@@ -87,29 +89,31 @@ body {
 #button {
     background-color: rgb(255, 255, 255);
     float: right;
-    margin-top: 38%;
+    margin-top: 35%;
 }
 /* -------------------------------------------------------Media quiries--------------------------------------------------------------------------------------- */
-/* Small devices*/
-@media screen and (max-width: 425px){
+/* SMALL DEVICES */
+@media screen and (max-width: 600px){
     .heading {
         color: rgb(255, 255, 255);
         text-align: center;
         font-size: small;
     }
+
+    /* Menu list*/
     .menu li{
         display: inline;
         list-style: none;
-        
     }
+
     .menu{
         text-align: center;
         font-size: small;
-        
     }
 
     .content{
         font-size: small;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     h2{
@@ -117,30 +121,80 @@ body {
     }
 
     footer{
-        
         font-size: small;
     }
 
     #button {
         background-color: rgb(162, 149, 149);
-        
     } 
 }
 
-/* Tablet */
-@media screen and (min-width: 427px){
+/* TABLET */
+@media screen and (min-width: 601px){
     .heading {
-        color: rgb(159, 143, 165);
+        color: rgb(83, 56, 219);
         text-align: center;
         font-size: medium;
     }
 
-     .menu{
-       text-align: center; 
-        
-     }
-        
+    .content{
+        font-size: medium;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
 
+     /* Menu list*/
+     .menu li{
+        display: inline;
+        list-style: none;
+        padding-left: 63px;
+    }
 
+    .menu{
+       font-size: medium; 
+    }
+
+    h2{
+        color:rgb(8, 24, 165);
+    }
+
+    footer{
+        font-size:medium;
+    }     
+}
+
+/* Desktop device */
+ @media screen and (min-width:993px){
+.heading{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+.menu li{
+    display: grid;
+    text-align: left;
+    padding-left: 0%;
+}
+.menu{
+    text-align: center;
+    font-size: large;
+}
+
+aside{
+    text-align: left;
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+h2{
+    color: rgb(38, 5, 12)
+}
+
+footer{
+    font-size: larger;
+
+}
 
 }
